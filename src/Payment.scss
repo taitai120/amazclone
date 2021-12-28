@@ -1,0 +1,72 @@
+@use "./scss/" as *;
+
+.payment {
+  h1 {
+    text-align: center;
+    background: lightgray;
+    padding: 1rem 0;
+  }
+
+  .payment__container {
+    display: flex;
+    flex-direction: column;
+
+    .payment__content {
+      display: flex;
+      border-bottom: 1px solid lightgray;
+      padding: 1rem;
+
+      .payment__left {
+        font-weight: 700;
+        flex: 0.2;
+      }
+
+      .payment__right {
+        flex: 0.8;
+      }
+
+      .payment__method {
+        max-width: 500px;
+
+        .payment__priceContainer {
+          .currency {
+            margin: 0.5rem 0;
+          }
+
+          button {
+            background: gold;
+            border-radius: 2px;
+            width: 100%;
+            height: 30px;
+            border: 1px solid;
+            font-weight: bolder;
+            margin-top: 10px;
+            border: none;
+            outline: none;
+            color: #111;
+            transition: 0.5s ease;
+            cursor: pointer;
+
+            @include buttonHover;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .payment {
+    .payment__container {
+      .payment__content {
+        .payment__right {
+          .basket__item__info {
+            h3 {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

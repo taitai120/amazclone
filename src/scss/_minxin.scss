@@ -1,0 +1,6 @@
+@mixin buttonHover {
+  &:hover {
+    color: white;
+    background: black;
+  }
+}

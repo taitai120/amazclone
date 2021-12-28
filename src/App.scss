@@ -1,0 +1,8 @@
+@use "./scss" as *;
+
+@media screen and (max-width: 768px) {
+  .app {
+    margin: 0;
+    padding: 0;
+  }
+}

@@ -1,0 +1,48 @@
+@use "./scss/" as *;
+
+.basket__container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+
+  .basket__item {
+    margin-bottom: 20px;
+    display: flex;
+
+    img {
+      width: 120px;
+      height: 150px;
+    }
+
+    .basket__item__info {
+      margin-left: 30px;
+
+      h3 {
+        font-size: 1.3rem;
+      }
+
+      .basket__item__price {
+        font-weight: 600;
+      }
+
+      .basket__item__rating {
+        display: flex;
+      }
+
+      button {
+        background: #f0c14b;
+        border: none;
+        outline: none;
+        margin-top: 15px;
+        border-color: #a88734 #9c7e31 #846a29;
+        color: #111;
+        padding: 0.3rem 0.5rem;
+        font-weight: 600;
+        transition: 0.5s ease;
+        cursor: pointer;
+
+        @include buttonHover;
+      }
+    }
+  }
+}

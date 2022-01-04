@@ -40,6 +40,6 @@
 
 ######
 
-# Finally, thanks you for reading.
+# Finally, thanks for reading.
 
 ######

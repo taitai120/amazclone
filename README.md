@@ -10,11 +10,13 @@
 
 ## Login / Register to purchase items.
 
-## You can review your orders after proceed payments.
+## You can review your orders after proceeding payments.
 
 # Frameworks / Libraries used:
 
 #### ReactJS
+
+#### React Hooks (useState, useEffect, useContext, useReducer)
 
 #### Stripe (for payment)
 
@@ -32,6 +34,6 @@
 
 ######
 
-Finally, thanks you for reading.
+# Finally, thanks you for reading.
 
 ######

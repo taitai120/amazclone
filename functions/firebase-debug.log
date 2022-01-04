@@ -1799,3 +1799,66 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 [debug] [2022-01-04T13:41:48.261Z] [runtime-status] [17864] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.12.0","resolution":"D:\\Learning\\Bai Hoc\\react\\amazonclone\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [17864] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"9.12.0\",\"resolution\":\"D:\\\\Learning\\\\Bai Hoc\\\\react\\\\amazonclone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
 [debug] [2022-01-04T13:41:48.264Z] [runtime-status] [17864] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.16.0","resolution":"D:\\Learning\\Bai Hoc\\react\\amazonclone\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [17864] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.16.0\",\"resolution\":\"D:\\\\Learning\\\\Bai Hoc\\\\react\\\\amazonclone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
 [debug] [2022-01-04T13:41:48.264Z] [runtime-status] [17864] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"9.12.0","resolution":"D:\\Learning\\Bai Hoc\\react\\amazonclone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [17864] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"9.12.0\",\"resolution\":\"D:\\\\Learning\\\\Bai Hoc\\\\react\\\\amazonclone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[info] +  functions[us-central1-api]: http function initialized (http://localhost:5001/taitai-amaz-clone/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/taitai-amaz-clone/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ localhost:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-01-04T13:41:50.407Z] [worker-~diagnostic~-530ba5dc-9252-45ba-b02c-3a23533b06c1]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-530ba5dc-9252-45ba-b02c-3a23533b06c1]: IDLE"}}
+[debug] [2022-01-04T13:53:56.123Z] ----------------------------------------------------------------------
+[debug] [2022-01-04T13:53:56.127Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\phant\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-01-04T13:53:56.128Z] CLI Version:   10.0.1
+[debug] [2022-01-04T13:53:56.128Z] Platform:      win32
+[debug] [2022-01-04T13:53:56.128Z] Node Version:  v14.17.4
+[debug] [2022-01-04T13:53:56.130Z] Time:          Tue Jan 04 2022 20:53:56 GMT+0700 (Indochina Time)
+[debug] [2022-01-04T13:53:56.130Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-04T13:53:56.239Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-01-04T13:53:56.239Z] > authorizing via signed-in user (phantuantai120@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project taitai-amaz-clone. This may result in unexpected behavior. 
+[debug] [2022-01-04T13:53:56.278Z] [hub] writing locator at C:\Users\phant\AppData\Local\Temp\hub-taitai-amaz-clone.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[warn] !  Your requested "node" version "12" doesn't match your global version "14" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"12\" doesn't match your global version \"14\""}}
+[debug] [2022-01-04T13:53:56.379Z] defaultcredentials: writing to file C:\Users\phant\AppData\Roaming\firebase\phantuantai120_gmail_com_application_default_credentials.json
+[debug] [2022-01-04T13:53:56.388Z] Setting GAC to C:\Users\phant\AppData\Roaming\firebase\phantuantai120_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\phant\\AppData\\Roaming\\firebase\\phantuantai120_gmail_com_application_default_credentials.json"}}
+[debug] [2022-01-04T13:53:56.394Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/taitai-amaz-clone/adminSdkConfig [none]
+[debug] [2022-01-04T13:53:56.905Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/taitai-amaz-clone/adminSdkConfig 200
+[debug] [2022-01-04T13:53:56.905Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/taitai-amaz-clone/adminSdkConfig {"projectId":"taitai-amaz-clone","storageBucket":"taitai-amaz-clone.appspot.com","locationId":"us-central"}
+[debug] [2022-01-04T13:53:56.925Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/taitai-amaz-clone/sites 
+[debug] [2022-01-04T13:53:58.378Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/taitai-amaz-clone/sites 200
+[debug] [2022-01-04T13:53:58.379Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/taitai-amaz-clone/sites {"sites":[{"name":"projects/763854726699/sites/taitai-amaz-clone","defaultUrl":"https://taitai-amaz-clone.web.app","appId":"1:763854726699:web:e09181d642e207edcf6c6e","type":"DEFAULT_SITE"}]}
+[debug] [2022-01-04T13:53:58.379Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/taitai-amaz-clone/webApps/1:763854726699:web:e09181d642e207edcf6c6e/config [none]
+[debug] [2022-01-04T13:53:59.786Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/taitai-amaz-clone/webApps/1:763854726699:web:e09181d642e207edcf6c6e/config 200
+[debug] [2022-01-04T13:53:59.786Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/taitai-amaz-clone/webApps/1:763854726699:web:e09181d642e207edcf6c6e/config {"projectId":"taitai-amaz-clone","appId":"1:763854726699:web:e09181d642e207edcf6c6e","storageBucket":"taitai-amaz-clone.appspot.com","locationId":"us-central","apiKey":"AIzaSyD6iaRtb4lHh0M56i45VsDh9095edwttUs","authDomain":"taitai-amaz-clone.firebaseapp.com","messagingSenderId":"763854726699"}
+[info] i  hosting: Serving hosting files from: y {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1my\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4001 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4001 instead."}}
+[debug] [2022-01-04T13:53:59.861Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-01-04T13:53:59.862Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-01-04T13:53:59.862Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\phant\\.cache\\firebase\\emulators\\ui-v1.6.4\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\phant\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.6.4\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-01-04T13:54:00.054Z] Web / API server started at localhost:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4001\n"}}
+[info] i  functions: Watching "D:\Learning\Bai Hoc\react\amazonclone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"D:\\Learning\\Bai Hoc\\react\\amazonclone\\functions\" for Cloud Functions..."}}
+[debug] [2022-01-04T13:54:00.158Z] [worker-pool] addWorker(~diagnostic~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(~diagnostic~)"}}
+[debug] [2022-01-04T13:54:00.159Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key ~diagnostic~, total=1"}}
+[debug] [2022-01-04T13:54:00.159Z] [worker-pool] submitWork(triggerId=) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=)"}}
+[debug] [2022-01-04T13:54:00.160Z] [worker-~diagnostic~-978baa3b-bccc-427b-be62-ba6d1c3c5203]: Assigning socketPath: \\?\pipe\D:\Learning\Bai Hoc\react\amazonclone\functions\10132 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-978baa3b-bccc-427b-be62-ba6d1c3c5203]: Assigning socketPath: \\\\?\\pipe\\D:\\Learning\\Bai Hoc\\react\\amazonclone\\functions\\10132"}}
+[debug] [2022-01-04T13:54:00.161Z] [worker-~diagnostic~-978baa3b-bccc-427b-be62-ba6d1c3c5203]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-978baa3b-bccc-427b-be62-ba6d1c3c5203]: BUSY"}}
+[debug] [2022-01-04T13:54:00.516Z] [runtime-status] [10132] Functions runtime initialized. {"cwd":"D:\\Learning\\Bai Hoc\\react\\amazonclone\\functions","node_version":"14.17.4"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [10132] Functions runtime initialized. {\"cwd\":\"D:\\\\Learning\\\\Bai Hoc\\\\react\\\\amazonclone\\\\functions\",\"node_version\":\"14.17.4\"}"}}
+[debug] [2022-01-04T13:54:00.519Z] [runtime-status] [10132] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [10132] Disabled runtime features: undefined"}}

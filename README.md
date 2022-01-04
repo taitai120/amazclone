@@ -32,6 +32,12 @@
 
 #### Register and login to purchase items and see your orders.
 
+# Screenshots:
+![images/ama_home.png]
+![images/ama_item.png]
+![images/ama_checkout.png]
+![images/ama_order.png]
+
 ######
 
 # Finally, thanks you for reading.

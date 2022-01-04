@@ -3,8 +3,8 @@ import "./Header.scss";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
 import { Link } from "react-router-dom";
-import { useStateValue } from "./StateProvider";
-import { auth } from "./myFirebase";
+import { useStateValue } from "../../store/StateProvider";
+import { auth } from "../../myFirebase";
 import { useHistory } from "react-router-dom";
 
 export default function Header() {

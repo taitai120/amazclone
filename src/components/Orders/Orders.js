@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "./Orders.scss";
-import { db } from "./myFirebase";
-import { useStateValue } from "./StateProvider";
-import Order from "./Order";
+import { db } from "../../myFirebase";
+import { useStateValue } from "../../store/StateProvider";
+import Order from "./Order/Order";
 
 function Orders() {
   const [{ basket, user }, dispatch] = useStateValue();

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Order.scss";
 import moment from "moment";
-import Basket from "./Basket";
+import Basket from "../../Basket/Basket";
 import CurrencyFormat from "react-currency-format";
 
 function Order({ order }) {

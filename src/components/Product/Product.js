@@ -1,7 +1,6 @@
 import React from "react";
 import "./Product.scss";
-import { useStateValue } from "./StateProvider";
-import { Link } from "react-router-dom";
+import { useStateValue } from "../../store/StateProvider";
 
 function Product({ id, title, rating, image, price }) {
   const [{ basket, user }, dispatch] = useStateValue();

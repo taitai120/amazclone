@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import "./Payment.scss";
-import Basket from "./Basket";
-import { useStateValue } from "./StateProvider";
-import { getBasketTotal } from "./reducer";
+import Basket from "../Basket/Basket";
+import { useStateValue } from "../../store/StateProvider";
+import { getBasketTotal } from "../../store/reducer";
 import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
 import CurrencyFormat from "react-currency-format";
-import axios from "./axios";
+import axios from "../../axios";
 import { useHistory } from "react-router-dom";
-import { db } from "./myFirebase";
+import { db } from "../../myFirebase";
 
 function Payment() {
   const [{ basket, user }, dispatch] = useStateValue();

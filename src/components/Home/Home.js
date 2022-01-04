@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.scss";
-import Product from "./Product";
-import { useStateValue } from "./StateProvider";
+import Product from "../Product/Product";
+import { useStateValue } from "../../store/StateProvider";
 
 function Home() {
   const [{ productList }, dispatch] = useStateValue();

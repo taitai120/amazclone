@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
-import { auth } from "./myFirebase";
+import { auth } from "../../myFirebase";
 import "./Login.scss";
 
 function Login() {
